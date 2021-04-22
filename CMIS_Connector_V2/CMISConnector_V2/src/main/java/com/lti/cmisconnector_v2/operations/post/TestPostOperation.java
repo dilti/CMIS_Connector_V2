@@ -113,16 +113,6 @@ public class TestPostOperation extends BaseUpdateOperation {
 		}
 	}
 
-	protected String generateUri(String baseURL, String[] params) {
-		String uri = baseURL + "/repositories";
-		for (String s : params) {
-			uri += "/" + getContext().getOperationProperties().getProperty(s);
-		}
-		return uri;
-	}
-
-//	abstract protected String[] getParamsForURL();
-
 	public com.lti.cmisconnector_v2.CMISConnection getConnection() {
 		return (com.lti.cmisconnector_v2.CMISConnection) super.getConnection();
 	}
