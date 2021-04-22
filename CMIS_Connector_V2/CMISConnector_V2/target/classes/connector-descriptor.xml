@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenericConnectorDescriptor>
+	<field id="url" label="URL" type="string">
+		<helpText>The base URL to execute against</helpText>
+	</field>
+	<field id="username" label="Username" type="string" />
+	<field id="password" label="Password" type="password" />
+	<operation types="GET" customTypeId="TestGet"
+		customTypeLabel="Get Operation">
+		<field id="path" label="Path" type="string"
+			scope="operationOnly" overrideable="true">
+		</field>
+
+		<field id="headers" label="Request Headers"
+			type="customproperties" scope="operationOnly" overrideable="true">
+		</field>
+		<field id="params" label="Request Parameters"
+			type="customproperties" scope="operationOnly" overrideable="true">
+		</field>
+	</operation>
+	<operation types="GET" customTypeId="GetDocumentContent"
+		customTypeLabel="Get Content From Document Operation">
+		<field id="path" label="Path" type="string"
+			scope="operationOnly" overrideable="true">
+		</field>
+		<field id="params" label="Request Parameters"
+			type="customproperties" scope="operationOnly" overrideable="true">
+		</field>
+	</operation>
+	<operation types="DELETE" customTypeId="TestDelete"
+		customTypeLabel="Delete Operation">
+		<field id="path" label="Path" type="string"
+			scope="operationOnly" overrideable="true">
+		</field>
+		<field id="headers" label="Request Headers"
+			type="customproperties" scope="operationOnly" overrideable="true">
+		</field>
+		<field id="params" label="Request Parameters"
+			type="customproperties" scope="operationOnly" overrideable="true">
+		</field>
+	</operation>
+	<operation types="UPDATE" customTypeId="TestPost"
+		customTypeLabel="Post Operation">
+		<field id="path" label="Path" type="string"
+			scope="operationOnly" overrideable="true">
+		</field>
+		<field id="filePath" label="File Path" type="string"
+			scope="operationOnly" overrideable="true">
+		</field>
+		<field id="headers" label="Request Headers"
+			type="customproperties" scope="operationOnly" overrideable="true">
+		</field>
+		<field id="params" label="Request Parameters"
+			type="customproperties" scope="operationOnly" overrideable="true"></field>
+
+	</operation>
+</GenericConnectorDescriptor>

@@ -1,0 +1,10 @@
+com\lti\cmisconnector_v2\CMISConnection.class
+com\lti\cmisconnector_v2\operations\post\TestPostOperation$1.class
+com\lti\cmisconnector_v2\operations\post\TestPostOperation.class
+com\lti\cmisconnector_v2\client\RESTClient.class
+com\lti\cmisconnector_v2\operations\get\TestGetOperation.class
+com\lti\cmisconnector_v2\RepeatableInputStreamEntity.class
+com\lti\cmisconnector_v2\operations\delete\TestDeleteOperation.class
+com\lti\cmisconnector_v2\CMISBrowser.class
+com\lti\cmisconnector_v2\CMISConnector.class
+com\lti\cmisconnector_v2\operations\get\GetContentFromDocumentOperation.class
